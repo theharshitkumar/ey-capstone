@@ -1,0 +1,24 @@
+body {
+    background-color: rgba(21, 21, 21, 0.1);
+}
+.my-logo {
+    color: #fff;
+    margin: 10px;
+}
+.social {
+    text-align: center;
+    color: #fff !important;
+}
+.social a i {
+    color: #fff;
+}
+.social a {
+    padding-top: 2px;
+}
+.social a:hover {
+    transform: scale(1.1, 1.1);
+    transition-delay: 50ms;
+}
+.s-header::-webkit-scrollbar {
+    display: none;
+}

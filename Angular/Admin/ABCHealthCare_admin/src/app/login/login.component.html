@@ -1,0 +1,12 @@
+<div class="bar">
+    <div class="text">ABC Healthcare</div>
+  </div>
+
+  <div class="form">
+    <h2>Admin Login</h2>
+    <form action="/login" method="post">
+    <input [(ngModel)]="admin.username" type="email" name="email" placeholder="Email" required>
+    <input [(ngModel)]="admin.password"type="password" name="password" placeholder="Password" required>
+    <button type="submit" (click)="authenticate_admin()">Login</button>
+    </form>
+    </div>
